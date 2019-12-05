@@ -12,10 +12,10 @@ def perceptron (a,b,c,d):
     resultado=(a*b+c*d)
     if resultado > 20:
         print("el numer obtenido es 1")
-        print("Pero el resultado de la operacion es: "resultado)
+        print("Pero el resultado de la operacion es: ",resultado)
     else :
         print ("el resultado obtenido en la operacion es 0")
-        print("Pero el resultado de la operacion es: "resultado)
+        print("Pero el resultado de la operacion es: ",resultado)
     
 
 
