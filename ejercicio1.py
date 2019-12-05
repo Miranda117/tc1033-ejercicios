@@ -1,5 +1,11 @@
 def greet(x):
-    print("Hola ",x,",¿como estas? ")
+    for a in range (0,x):
+        print ("Agregue un nombre")
+        nombre=input()
+        lista=[]
+        lista.append(nombre)
+        print("Hola ",lista)
+    return lista
 
 
 def run (a):
@@ -7,8 +13,8 @@ def run (a):
         print ("run")
 
 if  __name__ == "__main__":
-    print("Bienvenido, ¿cual es su nombre?")
-    a = input()
+    print("Bienvenido, ¿Cuantas personas usaran este programa?")
+    a = int(input())
     greet(a)
     b=int(input("ahora difuite un nimero, este debe ser un entero: "))
     run(b)
