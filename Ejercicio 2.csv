@@ -1,0 +1,19 @@
+id,Nombre,Biblioteca de figuras,ID de página,Contenido por,Grupo,Origen de línea,Destino de la línea,Flecha de origen,Flecha de destino,Área de texto 1,Área de texto 2,Área de texto 3
+1,Página,,,,,,,,,Página 1 ,,
+2,Clase,UML,1,,,,,,,Vehiculos,"medio de desplazamiento 
+capacidad  de pasajeros 
+matricula
+velocidad  maxima
+tipo de combustible ",
+3,Clase,UML,1,,,,,,,vehiculos  aérieos,"numero de ruedas  
+datos de motor
+Numero de puertas  
+caracteristicas de las ruedas ",
+4,Clase,UML,1,,,,,,,Vehiculos  marinos,Tipo de propulción ,
+5,Clase,UML,1,,,,,,,Vehiculos  terrestres,"numero de ruedas   caracteristicas del motor 
+datos de motor
+Numero de puertas  
+caracteristicas de las ruedas ",
+6,Línea,,1,,,2,5,Arrow,None,,,
+7,Línea,,1,,,2,4,Arrow,None,Texto,,
+8,Línea,,1,,,2,3,Arrow,None,,,
