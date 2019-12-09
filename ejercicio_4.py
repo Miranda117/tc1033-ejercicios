@@ -1,3 +1,4 @@
+
 class VehiclesIU:
     def add_vehilces(self):
         print ("Que tipo de vehiculo es: ")
@@ -8,6 +9,8 @@ class VehiclesIU:
 
 class VehiclesDP:
     def populet_list(self):
+        global lista
+        lista=[]
         while 1:
             menu_=Menu()
             c=menu_.menu()
@@ -49,9 +52,6 @@ class print_:
  
 
 if __name__ == "__main__":
-    global lista
-    
-    lista=[]
     a=VehiclesDP()
     a.populet_list()
         
